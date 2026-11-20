@@ -4,6 +4,13 @@
   height: 100%;
   padding: 0;
   overflow: hidden;
+
+  /* Chrome uses the interface font, as Obsidian does. Text that a person or an agent writes uses the note font. */
+  font-family: var(--font-interface);
+}
+
+.claudian-text-block,
+.claudian-thinking-content {
   font-family: var(--font-text);
 }
 

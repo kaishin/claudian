@@ -13,7 +13,7 @@
   border-radius: 6px;
   cursor: pointer;
   color: var(--text-normal);
-  font-size: 14px;
+  font-size: var(--font-ui-medium);
 }
 
 button.claudian-fork-target-option {

@@ -89,7 +89,7 @@
 }
 
 .claudian-snippet-description {
-  font-size: 13px;
+  font-size: var(--font-ui-small);
   color: var(--text-muted);
 }
 
@@ -139,7 +139,7 @@
   width: 100%;
   min-width: 100%;
   font-family: var(--font-monospace);
-  font-size: 12px;
+  font-size: var(--font-ui-smaller);
   resize: vertical;
 }
 
@@ -153,7 +153,7 @@
 .claudian-cancel-btn,
 .claudian-save-btn {
   padding: 6px 16px;
-  font-size: 13px;
+  font-size: var(--font-ui-small);
   border: none;
   border-radius: 4px;
   cursor: pointer;

@@ -324,6 +324,6 @@ body.claudian-selection-highlight-active ::highlight(claudian-selection) {
   box-shadow: none;
   color: inherit;
   font-family: inherit;
-  font-size: 10.5px;
+  font-size: calc(var(--font-ui-smaller) * 0.875);
   opacity: 0.8;
 }

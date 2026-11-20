@@ -494,6 +494,8 @@ button.claudian-work-header {
   box-shadow: none;
   color: var(--text-muted);
   font: inherit;
+  font-size: calc(13 * var(--claudian-font-px));
+  line-height: 1.5;
   cursor: pointer;
 }
 
